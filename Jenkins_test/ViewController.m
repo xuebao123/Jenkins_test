@@ -12,6 +12,9 @@
 @interface ViewController ()
 
 @property(nonatomic, strong)UIButton *button;
+@property(nonatomic, strong)UIButton *button1;
+
+
 @property(nonatomic, strong)BViewController *bViewController;
 
 @end
@@ -25,6 +28,12 @@
     [self.button setTitle:@"block" forState:UIControlStateNormal];
     [self.button addTarget:self action:@selector(buttonClickAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.button];
+    
+    
+    self.button1 = [[UIButton alloc]initWithFrame:CGRectMake(50, 150, 100, 50)];
+    self.button1.backgroundColor = [UIColor yellowColor];
+    [self.button1 setTitle:@"textField" forState:UIControlStateNormal];
+    
     
 }
 

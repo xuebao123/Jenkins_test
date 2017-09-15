@@ -15,6 +15,7 @@
 		B7424A261F611F7D008C5A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7424A251F611F7D008C5A1C /* Assets.xcassets */; };
 		B7424A291F611F7D008C5A1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7424A271F611F7D008C5A1C /* LaunchScreen.storyboard */; };
 		B7CC01001F62393D00664F70 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CC00FF1F62393D00664F70 /* BViewController.m */; };
+		B7CC01031F627FED00664F70 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CC01021F627FED00664F70 /* CViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		B7424A2A1F611F7D008C5A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7CC00FE1F62393D00664F70 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		B7CC00FF1F62393D00664F70 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		B7CC01011F627FED00664F70 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		B7CC01021F627FED00664F70 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		F6946BF7E4EC75428907B092 /* libPods-Jenkins_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jenkins_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,6 +94,8 @@
 				B7424A201F611F7D008C5A1C /* ViewController.m */,
 				B7CC00FE1F62393D00664F70 /* BViewController.h */,
 				B7CC00FF1F62393D00664F70 /* BViewController.m */,
+				B7CC01011F627FED00664F70 /* CViewController.h */,
+				B7CC01021F627FED00664F70 /* CViewController.m */,
 				B7424A221F611F7D008C5A1C /* Main.storyboard */,
 				B7424A251F611F7D008C5A1C /* Assets.xcassets */,
 				B7424A271F611F7D008C5A1C /* LaunchScreen.storyboard */,
@@ -230,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7CC01031F627FED00664F70 /* CViewController.m in Sources */,
 				B7424A211F611F7D008C5A1C /* ViewController.m in Sources */,
 				B7CC01001F62393D00664F70 /* BViewController.m in Sources */,
 				B7424A1E1F611F7D008C5A1C /* AppDelegate.m in Sources */,
